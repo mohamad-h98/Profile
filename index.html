@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <script src="JS/all.min.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <script src="JS/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Start Nav Bar -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="home navbar-brand" href="#"><i class="icon-nav fa-solid fa-house"></i> Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="icon-nav fa-solid fa-earth-americas"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-nav fa-regular fa-comment"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="icon-nav fa-solid fa-person"></i></a>
+          </li>
+          <li class="nav-item bill ">
+            <a class="nav-link disabled position-relative" aria-disabled="true"><i class="icon-nav fa-regular fa-bell "></i>
+            <span class=" ssppaann position-absolute top-0 start-100 translate-middle badge rounded-pill ">
+              3
+              <span class="visually-hidden">unread messages</span>
+            </span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">One new friend request</a></li>
+              <li><a class="dropdown-item" href="#">John Doe posted on your wall</a></li>
+              <li><a class="dropdown-item" href="#">Jane likes your post</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          
+          <button class="btn btn-outline-success" type="submit"><i class="icon-nav fa-solid fa-user"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav Bar  -->
+  <br>
+  <br>
+  <!-- Start body  -->
+  <div class="container">
+    <div class="row">
+      <!-- Start My-Profile -->
+      <div class="col-md-12 col-lg-3">
+        
+        <div class="My-Profile shadow p-3 mb-5 rounded w-100">
+          <h4 class="text-center">My Profile</h4>
+          <div class="text-center"> <img class="Photo1" src="Image/avatar3.png" alt=""></div>        
+          <hr>
+          <p><i class="fa-solid fa-pencil icone"></i>    Designer, UI</p>
+          <p><i class="fa-solid fa-house icone"></i>    London, Uk</p>
+          <p><i class="fa-solid fa-cake-candles icone"></i>    April 1, 1988</p>
+        </div>
+
+          <div class="My-Groups shadow-sm p-3 mb-5 ">
+
+            <p onclick="one()" ondblclick="onee()"><i class="fa-solid fa-circle-notch icone2"></i>My Groups</p>
+            <div class="Some-text shadow-sm p-3" id="Some-text">Some text..</div>
+            <p onclick="one1()" ondblclick="onee1()"><i class="fa-regular fa-calendar-check icone2"></i>My Events</p>
+            <div class="Some-text shadow-sm p-3" id="Some-text1">Some other text..</div>
+            <p onclick="one2()" ondblclick="onee2()" class="p-My-Groups"><i class="fa-solid fa-users icone2"></i>My Photos</p>
+            <div class="Some-text shadow-sm  text-center" id="Some-text2">
+              <img src="Image/lights.jpg" alt="">
+              <img src="Image/nature.jpg" alt="">
+              <img src="Image/mountains.jpg" alt="">
+              <img src="Image/lights.jpg" alt="">
+              <img src="Image/nature.jpg" alt="">
+              <img src="Image/snow.jpg" alt="">
+            </div>
+            <script>
+              function one(){
+                document.getElementById("Some-text").style.display = "block";
+              }
+              function onee(){
+                document.getElementById("Some-text").style.display = "none";
+              }
+
+              function one1(){
+                document.getElementById("Some-text1").style.display = "block";
+              }
+              function onee1(){
+                document.getElementById("Some-text1").style.display = "none";
+              }
+
+              function one2(){
+                document.getElementById("Some-text2").style.display = "block";
+              }
+              function onee2(){
+                document.getElementById("Some-text2").style.display = "none";
+              }
+
+            </script>
+          </div>
+
+          <div class="Interests shadow-sm p-3 mb-5">
+            <p>Interests</p>
+
+            <span class="span_1">News</span><span class="span_1">W3shoole</span><span class="span_1">Labels</span><span class="span_1">Games</span><span class="span_1">Friends</span>
+            <span class="span_2">Games</span><span class="span_2">Friends</span><span class="span_2">Food</span><span class="span_2">Design</span>
+            <span class="span_3">Art</span>
+            <br><span class="span_3">Photos</span>
+          </div>
+
+          <div class="Hey position-relative " id="class_close">
+            <div onclick="close_Hey()" class="class_close position-absolute top-0 end-0"><i class=" i fa-solid fa-xmark"></i></div>
+            <br>
+            <p class="Hey_P">Hey!<p>
+            <p>People are looking at your profile. Find out 
+              who.</p>
+          </div>
+
+          <script>
+            function close_Hey(){
+                document.getElementById("class_close").style.display = "none";
+              }
+          </script>
+      </div>
+      <!-- End My-Profile -->
+      <!-- Start form_diteles -->
+      <div class="col-md-12 col-lg-7" >
+
+        <form class="form_diteles  shadow p-3 mb-5">
+        <p>Socil Media template by w3.css</p>
+         <input class="form_input1 form-control" type="text" placeholder="Status: Feeling Bluebbb">
+         <button class="b-joun"><i class="ii fa-solid fa-pen"></i>Post</button>
+        </form>
+
+        <div class="John shadow p-3 mb-5 ">
+        <div class="img_p">
+          <img  src="Image/avatar2.png" alt="">
+          <p>John Doe</p>
+        </div>
+          <hr>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+            ex ea commodo consequat.
+          </p>
+          <br>
+          <div class="text-center">
+            <img class="joun-img" src="Image/mountains.jpg" alt="">
+            <img class="joun-img" src="Image/snow.jpg" alt="">
+          </div>
+          <br>
+          <button class="b-joun"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+          <button class="b-joun"><i class="fa-solid fa-comments"></i> Comment</button>
+
+        </div>
+
+        <div class="John shadow p-3 mb-5 ">
+          <div class="img_p">
+            <img  src="Image/avatar5.png" alt="">
+            <p>Jane Doe</p>
+          </div>
+            <hr>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+              ex ea commodo consequat.
+            </p>
+            <br>
+            <button class="b-joun"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+            <button class="b-joun"><i class="fa-solid fa-comments"></i> Comment</button>
+  
+          </div>
+
+          <div class="John shadow p-3 mb-5 ">
+            <div class="img_p">
+              <img  src="Image/avatar6.png" alt="">
+              <p>Angie Jane</p>
+            </div>
+              <hr>
+              <p>
+                Have you seen this?
+              </p>
+              <br>
+              <div class="text-center">
+                <img class="w-100" src="Image/nature.jpg" alt="">
+              </div>
+              <br>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+              </p>
+              <button class="b-joun"><i class="fa-regular fa-thumbs-up"></i> Like</button>
+              <button class="b-joun"><i class="fa-solid fa-comments"></i> Comment</button>
+    
+            </div>
+      </div>
+      <!-- End form_diteles -->
+      <!-- Start Right Corner -->
+      <div class="col-md-12 col-lg-2">
+        
+            
+        <div class="John shadow p-3 mb-5 ">
+
+          <p>Upcoming Events:</p>
+          <div class="text-center">
+            <img class="w-100" src="Image/forest.jpg" alt="">
+          </div>
+            <div class="text-center  p-holiday">
+              <p >
+                <b>Holiday</b>
+              </p>
+              <p class="mb-0">
+                Friday 15:00
+              </p>
+            </div>
+            <button class="b-info w-100">Info</button>
+          </div>
+
+          <div class="John shadow p-3 mb-5 ">
+
+            <p>Friend Request</p>
+            <div class="text-center">
+              <img class="w-100" src="Image/avatar6 (1).png" alt="">
+            </div>
+              <div class="text-center  p-holiday">
+                <p >
+                  Jane Doe
+                </p>
+              </div >
+              <div class="b-check">
+              <button class="b-check1  "><i class="fa-solid fa-check"></i></button>
+              <button class="b-check2  "><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        
+      </div>
+
+      <div class="John shadow p-4 mb-5 text-center">
+            <p class="mb-0">
+              ADS
+            </p>
+        </div>
+
+        <div class="John shadow p-5 mb-5 text-center ">
+          <p class="mb-0">
+            <i class="fa-solid fa-bug ADS"></i>
+          </p>
+      </div>
+    
+  </div>
+      <!-- End Right Corner -->
+    </div>
+  </div>
+  <!-- End body -->
+  <!-- Start Footer -->
+<footer>
+<div class="footer-div-1 p-4">Footer</div>
+<div class="footer-div-2 p-3">Powered by <a href="w3.css">w3.css</a></div>
+</footer>
+  <!-- End Footer -->
+</body>
+</html>

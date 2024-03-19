@@ -1,0 +1,264 @@
+
+
+nav {
+    background-color: #4d636f !important;
+    font-size: 18px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.container-fluid{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+nav .home {
+
+    background-color: #3a4b53 !important;
+    padding: 12px 24px;
+}
+nav a{
+    color: #fff !important;
+    padding: 12px 24px !important;
+ 
+}
+.icon-nav{
+    font-size: 20px;
+    font-weight: bold !important;
+}
+body{
+    background-color: #f5f7f8;
+    font-family: "Open Sans", sans-serif;
+}
+nav .top-0{
+top: 18px !important;
+background-color: #4caf50;
+}
+.dropdown-menu a{
+color: #000 !important;
+}
+.dropdown-menu a:hover{
+    background-color: #ccc;
+}
+.bill:hover .dropdown-menu{
+display: block;
+}
+
+.Photo1{
+    border-radius: 50%;
+    width: 39%;
+    height: 39%;
+}
+.My-Profile{
+    background-color: #fff !important;
+    width: 100% !important;
+    border-radius: 3px !important;
+}
+.mb-5{
+    margin-bottom: 1.5rem !important;
+}
+.My-Profile p{
+    margin: 15px 0px;
+}
+
+.My-Profile hr{
+    margin: 20px 0px;
+}
+.My-Profile .icone{
+    margin-right: 16px !important;
+    color: #607d8b !important;
+}
+.My-Profile h4{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.My-Groups{
+    padding: 0px !important;
+    background-color: #7d97a5 !important;
+    color: #fff;
+
+}
+.My-Groups p{
+    padding: 10px ;
+    margin: 0px;
+}
+.My-Groups p:hover{
+    background-color: #ccc !important;
+}
+.My-Groups .icone2{
+    color: #fff;
+    margin-right: 16px;
+    
+}
+.Some-text{
+    display: none;
+    background-color: #fff;
+    color: #000;
+}
+#Some-text2 img{
+    margin: 3%;
+    width: 38% ;
+}
+.Interests{
+    background-color: #fff;
+    color: #000;
+}
+.Interests span{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px !important;
+    padding: 5px;
+    font-size: 12px;
+}
+.span_1{
+color: #fff;
+background-color: #4d636f;
+}
+.span_2{
+    color: #fff;
+    background-color:#607d8b;
+}
+.span_3{
+    color: #000;
+    background-color:#d7e1e6;
+}
+.Hey{
+    background-color: #dfe5e8 !important;
+    font-size: 14px !important;
+    padding: 0px 10px 10px 10px !important;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Hey_P{
+    font-size: 15px;
+    font-weight: bold;
+}
+.class_close{
+    padding: 7px 12px 7px 12px !important;
+    background-color: #becbd2 !important;
+
+}
+.i{
+    color: #000 !important;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.form_1{
+    background-color: #fff;
+}
+.Email{
+    display: block !important;
+}
+.Password{
+    width: 100% !important;
+    display: block !important;
+}
+.Post{
+    display: block !important;
+}
+.form_diteles{
+    background-color: #fff;
+}
+.form_input1{
+    border: solid  #c1bdbd 1px ;
+    border-radius: 0% !important;
+}
+.form_input1:checked{
+    border:  solid  #000 1px !important;
+}
+.form_diteles p{
+opacity: 70% !important;
+font-size: 16px;
+}
+.form_diteles .ii{
+    margin-right: 5px !important;
+}
+
+.John{
+background-color: #fff;
+}
+.img_p img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.img_p img,.img_p p{
+    float: left;
+}
+.img_p p{
+    margin-top: 2.5%;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.img_p{
+   overflow: hidden;
+}
+.joun-img{
+    width:48%;
+    margin: 3px;
+}
+.b-joun{
+    background-color: #607d8b !important;
+    margin-top: 10px;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    color: #fff;
+}
+.b-joun:hover{
+    color: #000;
+    background-color: #ccc!important;
+}
+.b-info{
+    background-color:  #dfe5e8 !important;
+    margin-top: 10px;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    color: #000;
+
+}
+.b-info:hover{
+    color: #000;
+    background-color: #ccc!important;
+}
+.p-holiday{
+    margin-top: 15px !important;
+    margin-bottom: 0px;
+}
+.b-check1{
+    background-color: #4CAF50;
+}
+.b-check2{
+    background-color: #f44336 ;
+}
+.b-check{
+    overflow: hidden;
+}
+.b-check button{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    border: none;
+    padding: 8px 0px 8px 0px;
+    color: #fff;
+    border: none !important;
+}
+
+.b-check button:hover{
+    color: #000;
+    background-color: #ccc!important;
+}
+.ADS{   
+    font-size: 30px;
+}
+.footer-div-1{
+    background-color: #435761;
+    color: #fff;
+    font-size: 17px;
+}
+.footer-div-2{
+    background-color: #303e45;
+    color: #fff;
+    font-size: 17px;
+}
+.footer-div-2 a{
+    color: #fff;
+}
